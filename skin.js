@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.5/19996
 // Filename: Fraser-Skin.ggsk
-// Generated 2023-08-15T10:50:25
+// Generated 2023-08-15T11:05:07
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true, { ignoreInState: 1  });
@@ -4863,6 +4863,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='height : 100px;';
 		hs+='left : 1px;';
+		hs+='opacity : 0.3;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
